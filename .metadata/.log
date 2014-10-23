@@ -1,0 +1,112 @@
+!SESSION 2014-10-23 21:05:47.731 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2014-10-23 21:06:42.671
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.ui 4 4 2014-10-23 21:08:19.717
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-10-23 21:08:22.068
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.egit.core 4 0 2014-10-23 21:26:25.460
+!MESSAGE An exception occurred during push on URI https://github.com/josegarvinvictoria/CercaNums.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1170)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-10-23 21:26:25.513
+!MESSAGE Can't connect to any repository: https://github.com/josegarvinvictoria/CercaNums.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2014-10-23 21:27:18.818
+!MESSAGE An exception occurred during push on URI https://github.com/josegarvinvictoria/CercaNums.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1170)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-10-23 21:27:18.818
+!MESSAGE Can't connect to any repository: https://github.com/josegarvinvictoria/CercaNums.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2014-10-23 21:28:03.969
+!MESSAGE An exception occurred during push on URI https://github.com/josegarvinvictoria/CercaNums.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1170)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-10-23 21:28:03.970
+!MESSAGE Can't connect to any repository: https://github.com/josegarvinvictoria/CercaNums.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2014-10-23 21:29:59.058
+!MESSAGE An exception occurred during push on URI https://github.com/josegarvinvictoria/CercaNums.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1170)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-10-23 21:29:59.059
+!MESSAGE Can't connect to any repository: https://github.com/josegarvinvictoria/CercaNums.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2014-10-23 21:32:38.962
+!MESSAGE An exception occurred during push on URI https://github.com/josegarvinvictoria/CercaNums.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1170)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-10-23 21:32:38.963
+!MESSAGE Can't connect to any repository: https://github.com/josegarvinvictoria/CercaNums.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2014-10-23 21:34:52.275
+!MESSAGE An exception occurred during push on URI https://github.com/josegarvinvictoria/CercaNums.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1170)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-10-23 21:34:52.276
+!MESSAGE Can't connect to any repository: https://github.com/josegarvinvictoria/CercaNums.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-10-23 21:35:25.627
+!MESSAGE Clipboard contains no data to paste
+
+!ENTRY org.eclipse.egit.core 4 0 2014-10-23 21:36:57.489
+!MESSAGE An exception occurred during push on URI https://github.com/josegarvinvictoria/CercaNums.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1170)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-10-23 21:36:57.489
+!MESSAGE Can't connect to any repository: https://github.com/josegarvinvictoria/CercaNums.git (Nothing to push.)
