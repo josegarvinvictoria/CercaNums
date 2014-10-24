@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class CercaNum {
-//Aixo es un comentari de prova
+//Array on s'emmagatzemen el 500000 numeros
     static int[] numeros = new int[500000];
     static boolean numTrobat = false;
 
